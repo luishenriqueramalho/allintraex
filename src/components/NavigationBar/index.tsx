@@ -1,5 +1,6 @@
 import React from "react";
-import { SafeAreaView, Text, View } from "react-native";
+import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { Container, Logo, NamePeople, Profile } from "./styles";
 import Allintra from "@/assets/imgs/allintraLogo.png";
 import ProfilePicture from "@/assets/imgs/profile-picture.png";
